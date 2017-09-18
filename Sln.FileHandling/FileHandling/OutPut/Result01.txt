@@ -1,0 +1,17 @@
+Archive
+9/19/2017 12:11:38 AM
+9/18/2017 6:11:38 PM
+G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
+9/18/2017 6:11:38 PM
+G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
+G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
+True
+.txt
+G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files\F1.txt
+False
+9/19/2017 12:11:38 AM
+9/18/2017 6:11:38 PM
+9/19/2017 12:11:45 AM
+9/18/2017 6:11:45 PM
+22
+F1.txt
