@@ -52,10 +52,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Files\" />
     <Folder Include="Notes\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Files\LogMessage.txt" />
     <Content Include="OutPut\Result01.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

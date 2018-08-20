@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading;
 
 namespace FileHandling
 {
@@ -94,6 +95,45 @@ namespace FileHandling
         }
 
 
+
+        public static void WrittingLogs()
+        {
+            string fileLoc = GlobalVariables.strFilesLocs + "\\Files\\LogMessage.txt";
+            Random ran = new Random();
+
+            if (File.Exists(fileLoc))
+            {
+                using (StreamWriter w = File.AppendText(fileLoc))
+                {
+                    Log("Test " + ran.Next(1,10000), w);
+                    Thread.Sleep(1000);
+                    Log("Test " + ran.Next(1, 10000), w);
+                }
+
+                using (StreamReader r = File.OpenText(fileLoc))
+                {
+                    DumpLog(r);
+                }
+            }
+        }
+
+        public static void Log(string logMessage, TextWriter w)
+        {
+            w.Write("\r\nLog Entry : ");
+            w.WriteLine("{0} {1}", DateTime.Now.ToLongTimeString(), DateTime.Now.ToLongDateString());
+            w.WriteLine("  :");
+            w.WriteLine("  :{0}", logMessage);
+            w.WriteLine("-------------------------------");
+        }
+
+        public static void DumpLog(StreamReader r)
+        {
+            string line;
+            while ((line = r.ReadLine()) != null)
+            {
+                Console.WriteLine(line);
+            }
+        }
 
     }
 }

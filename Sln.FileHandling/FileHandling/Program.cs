@@ -10,6 +10,8 @@ namespace FileHandling
 
             //Helper.GetFileDetails();
 
+            Helper.WrittingLogs();
+
             //Using Extension methods
             //Helper.RenameFile("F2.txt");
             Console.ReadLine();

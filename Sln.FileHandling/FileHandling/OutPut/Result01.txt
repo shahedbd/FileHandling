@@ -1,17 +1,17 @@
 Archive
-9/19/2017 12:11:38 AM
-9/18/2017 6:11:38 PM
-G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
-9/18/2017 6:11:38 PM
-G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
-G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files
+8/20/2018 8:26:14 PM
+8/20/2018 2:26:14 PM
+E:\gitClone\FileHandling\Sln.FileHandling\FileHandling\Files
+8/20/2018 2:26:14 PM
+E:\gitClone\FileHandling\Sln.FileHandling\FileHandling\Files
+E:\gitClone\FileHandling\Sln.FileHandling\FileHandling\Files
 True
 .txt
-G:\TheGitCloning\TMP\Sln.FileHandling\FileHandling\Files\F1.txt
+E:\gitClone\FileHandling\Sln.FileHandling\FileHandling\Files\F1.txt
 False
-9/19/2017 12:11:38 AM
-9/18/2017 6:11:38 PM
-9/19/2017 12:11:45 AM
-9/18/2017 6:11:45 PM
+8/20/2018 8:26:14 PM
+8/20/2018 2:26:14 PM
+8/20/2018 8:26:14 PM
+8/20/2018 2:26:14 PM
 22
 F1.txt
